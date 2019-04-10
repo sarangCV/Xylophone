@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_yellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/yellow"
+        android:onClick="yellow"
+        android:text="Tap"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/button_orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/orange"
+        android:onClick="orange"
+        android:text="Tap"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/button_red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/red"
+        android:onClick="red"
+        android:text="Tap"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/button_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/blue"
+        android:onClick="blue"
+        android:text="Tap"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/button_green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/green"
+        android:onClick="green"
+        android:text="Tap"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/button_pink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="1"
+        android:background="@drawable/pink"
+        android:onClick="pink"
+        android:text="Tap"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/button_purple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="1"
+        android:background="@drawable/purple"
+        android:onClick="purple"
+        android:text="Tap"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light" />
+</LinearLayout>
